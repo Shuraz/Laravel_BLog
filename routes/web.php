@@ -15,3 +15,4 @@ use App\Http\Controllers\BlogController;
 */
 Route::get('/', [BlogController::class, 'index']);
 //Route::view('home', 'layout');
+Route::get('/list',[BlogController::class,'list']);
